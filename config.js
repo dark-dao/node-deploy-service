@@ -6,9 +6,9 @@ const config = {
     host: 'localhost',
     port: 5005,
     baseRoute: '/mySecretWebhookRoute',
-    logsUrl: path.join(__dirname, './logs'),
+    logsUrl: path.join(__dirname, './logs'), // path for store logs
     notification: {
-      enable: true,
+      enable: true, //enable email notifications
       login: 'example@mail.com',
       password: 'emailPassword',
       recipientEmail: 'recepient-email@mail.com'
