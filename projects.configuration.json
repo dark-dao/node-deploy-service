@@ -1,0 +1,10 @@
+{
+    "projects": [
+        {
+            "id": "My project name",
+            "route": "Route for webhook",
+            "url": "absolute/route/to/my/application/folder",
+            "commands": ["npm -v", "node -v", "another command"]
+        }
+    ]
+}
